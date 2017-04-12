@@ -20,3 +20,4 @@ Funk WC, Lovich RE, Hohenlohe PA, Hofman CA, Morrison SA, Sillett TS, Ghalambor 
 STACKS 2.1 (Catchen et al. 2011): Evaluación de la variación y estructura genética.
 
 Análisis de componentes principales con el paquete de R "prcomp"
+
