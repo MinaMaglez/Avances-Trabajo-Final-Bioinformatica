@@ -17,7 +17,7 @@ Funk WC, Lovich RE, Hohenlohe PA, Hofman CA, Morrison SA, Sillett TS, Ghalambor 
 
 **Análisis a realizar:** 
 
-STACKS 2.1 (Catchen et al. 2011): Evaluación de la variación y estructura genética.
+STACKS 2.1 (Catchen et al. 2011): Evaluación de la heterocigosis esperada y observada, π, Fis, Fst, y diversidad haplotipica. No es necesario un ensamble de Novo. 
 
 Análisis de componentes principales con el paquete de R "prcomp"
 
