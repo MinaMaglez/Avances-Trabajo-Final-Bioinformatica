@@ -48,7 +48,7 @@ indv_06		SCA
 
 ###### Aun no me queda claro en que momento cargas la base de datos con los SNP's y en que formato deben ir estos. 
 
-###### Para el analisis de Fst con la obtencion del p-value se usara el siguiente codigo
+#### Para el analisis de Fst con la obtencion del p-value se usara el siguiente codigo
 
 ```
 ~/% populations -P ./stacks/ -M ./samples/popmap -b 1 -k -f p_value -t 36
