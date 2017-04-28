@@ -1,15 +1,15 @@
-#Bitadora de avances del trabajo final
+Bitadora de avances del trabajo final
+
+
+14/abril/2017
+
+Revision de si se debia hacer de novo el alineamiento de las secuencias. 
+
+En la compilación de datos encontramos el archivo con los Cotings ya alineados, asi que no es necesario hacer un alineamiento de novo. 
 
 
 
-###14/abril/2017
-
-##Revision de si se debia hacer de novo el alineamiento de las secuencias. 
-#-En la compilación de datos encontramos el archivo con los Cotings ya alineados, asi que no es necesario hacer un alineamiento de novo. 
-
-
-
-###17/abril/2017
+17/abril/2017
 
 ###Lectura del manual de STACKS para saber como hacer los analisis de estadisticos basicos de genetica de poblaciones
 Col la aplicacion "populations" dentro del programa STACKS podemos obtener los datos de Heterocigosis esperada y observada, π, Fis, Fst, y diversidad haplotipica. 
