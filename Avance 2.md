@@ -1,6 +1,10 @@
-# Bitadora de avances del trabajo final
+# Bitacora de avances del trabajo final
 
 ### Carmina Martinez Gonzalez
+
+##### *06/abril/2017*
+
+#### Problemas con la computadora que tenia partición Windows/Biolinux, se murio la tarjeta madre (osea se murio la computadora)
 
 ##### *14/abril/2017*
 
@@ -55,3 +59,50 @@ indv_06		SCA
 ~/% populations -P ./stacks/ -M ./samples/popmap -b 1 -k -f p_value -t 36
 ```
 
+#### *03/mayo/2017*
+
+#### Cambio de sistema operativo de Windows a Ubuntu 10.6 en computadora hp con procesador intel Atom
+
+#### *04/mayo/2017*
+
+#### Se intento instalar Docker pero no se logro, ya que la computadora es de 32 bits
+
+#### Se busco la forma de instalar el programa STACKS en la computadora y encontre el contenedor "Bioconda", se instalo Bioconda en la computadora pero no se logro instalr STAKCS a partir de este contenedor debido a que el progrmaa solo estaba disponible para computadoras de 64 bits
+
+#### *05/mayo/2017* al *08/mayo/2017*
+
+#### Se intento instalar Docker en Windows-HOME de una computadora de 64 bits y a partir de ahi instalar STACKS en un contenedor, por alguna razon los contendores se creaban pero al salir ya no me dejaba volver a entrar y decia que el contenedor no existia
+
+#### *09/mayo/2017*
+
+#### Se particiono la computadora de 64bits en Windows/Biolinux, la particion tomo todo el dia por alguna razon
+
+#### *10/mayo/2017* al *15/mayo/2017*
+
+#### Se intento instalar Docker y Bioconda en Biolinux, no se logro 
+#### Busque tutoriales en youtube para instalar Docker y por alguna razon mis videos corrian demasiado rapido y no se escuchaban, trate de solucionarlo y no lo consegui
+
+#### *16/mayo/2017*
+
+#### Consegui la computadora de mi hermana y se particiono en Windows/Ubuntu 16.04, aprendi la valiosa leccion de que las computadoras hp no se llevna bien con biolinux 
+
+#### Instale Docker, y cree la imagen del contenedor Anaconda
+
+#### *17/mayo/2017*
+
+#### Monte un volumen en el que me permitiera tener mis archivos y mediante la imagen de Anaconda instale Stacks
+
+#### Intente correr los analisis y descubri que el formato de mis datos (genepop) no me permitiria correr mis analisis en Stacks, ya que estos requieren un formato VCF
+
+#### *18/mayo/2017*
+#### Una compañera de clase me comento que mis datos se podian anilizar con paqueterias de R, asi que en decidi cambiar de progama y analizar los datos con distintas paqueterias de R en lugar de usar Stacks
+
+#### Instale las librerias necesarias y comenze a hacer pruebas para correr mis analisis, pero mi base de datos no cargaba correctamente
+
+#### *19/mayo/2017*
+
+#### Encontre que el problema con mi base de datos era que en los nombres de los loci incluian "|", y R leia eso como un comando, asi que reemplace todos los "|" por "_" y la base de datos se cargo correctamente
+
+#### Realice los estadisticos basicos, pero aun tengo que averiguar como hacer el analisis de componentes principales
+
+#### Ya no se obtendran los haplotipos ni el valor de π, pues estos analisis no son muy practicos ni informativos con SNPs
